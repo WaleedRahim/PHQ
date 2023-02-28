@@ -1,0 +1,28 @@
+.topbann {
+    margin-top: 190px !important;
+}
+
+.myChart {
+    height: 100%;
+    width: 100%;
+    min-height: 150px;
+}
+
+.Scrl {
+    max-height: 300px;
+    max-width: 900px;
+    overflow-y: scroll;
+}
+
+.Scrl::-webkit-scrollbar {
+    display: none;
+}
+
+.btn {
+    line-height: 2.98
+}
+
+.h {
+    color: white;
+    text-align: right;
+}

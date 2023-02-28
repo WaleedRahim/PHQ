@@ -1,0 +1,226 @@
+/*
+Theme Name: Task
+Author: Waleed Khan
+*/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #47b2e4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #73c5eb;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Jost", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.a {
+    margin-top: 147px !important;
+}
+
+.top {
+    margin-top: 127px !important;
+}
+
+.heading {
+    margin-top: 127px !important;
+}
+
+a.next.page-numbers {
+    color: #47b2e4;
+    text-decoration: none;
+    padding: 6px;
+    margin: 5px;
+    border: 1px solid #47b2e4;
+    ;
+}
+
+a.prev.page-numbers {
+    color: #47b2e4;
+    text-decoration: none;
+    padding: 6px;
+    margin: 5px;
+    border: 1px solid #47b2e4;
+}
+
+a.page-numbers {
+    padding: 6px;
+    margin: 6px;
+}
+
+span.page-numbers.current {
+    padding: 6px;
+    margin: 6px;
+}
+
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+    background-color: #37517e;
+}
+
+#header.header-scrolled,
+#header.header-inner-pages {
+    background: rgba(5, 15, 32, 0.84);
+}
+
+#header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#header .logo a {
+    color: #fff;
+}
+
+#header .logo img {
+    max-height: 120px;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+.navbar ul li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.navbar a,
+.navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.sub-menu {
+    list-style: inherit;
+    margin: 0;
+    display: none;
+    padding-left: 0;
+    position: absolute;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+ul.sub-menu a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: black;
+}
+
+ul.sub-menu li:hover {
+    float: none;
+    color: #37517e;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+ul li ul.sub-menu {
+    min-width: 50%;
+    /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 80;
+}
+
+ul li:hover ul.sub-menu {
+    display: block;
+    /* Display the dropdown */
+}
+
+ul li ul.sub-menu li {
+    display: block;
+}
+
+ul li ul.sub-menu li a:hover {
+    display: block;
+    color: #37517e !important;
+}
+
+
+/**
+* Desktop Navigation 
+*/
+
+.navbar {
+    padding: 0;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+/* .navbar li {
+    position: relative;
+} */
+
+.navbar a,
+.navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+.navbar .getstarted {
+    padding: 8px 20px;
+    margin-left: 90px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #47b2e4;
+    font-weight: 600;
+}
+
+.navbar .getstarted:hover {
+    color: #fff;
+    background: #31a9e1;
+}
